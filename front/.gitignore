@@ -1,0 +1,72 @@
+# Dependencies
+node_modules/
+node_modules/** -text
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+coverage/
+.vite/
+.cache/
+.turbo/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+# Keep templates tracked
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local configuration
+*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+playwright-report/
+test-results/
+blob-report/
+
+# ESLint and style tools
+.eslintcache
+.stylelintcache
+
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Certificates and private keys
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Miscellaneous
+*.bak
+*.orig

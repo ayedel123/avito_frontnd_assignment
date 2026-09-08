@@ -1,0 +1,48 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BookingCardSkeleton > рендерит скелетоны и совпадает со снапшотом 1`] = `
+<div>
+  <div
+    class="flex items-center gap-4 rounded-xl border bg-card p-4"
+  >
+    <div
+      class="animate-pulse bg-muted size-11 shrink-0 rounded-lg"
+      data-slot="skeleton"
+    />
+    <div
+      class="flex min-w-0 flex-1 flex-col gap-2"
+    >
+      <div
+        class="animate-pulse rounded-md bg-muted h-4 w-64 max-w-full"
+        data-slot="skeleton"
+      />
+      <div
+        class="flex items-center gap-2"
+      >
+        <div
+          class="animate-pulse rounded-md bg-muted h-3 w-20"
+          data-slot="skeleton"
+        />
+        <span
+          class="size-1 shrink-0 rounded-full bg-muted"
+        />
+        <div
+          class="animate-pulse rounded-md bg-muted h-3 w-16"
+          data-slot="skeleton"
+        />
+        <span
+          class="size-1 shrink-0 rounded-full bg-muted"
+        />
+        <div
+          class="animate-pulse rounded-md bg-muted h-3 w-24"
+          data-slot="skeleton"
+        />
+      </div>
+    </div>
+    <div
+      class="animate-pulse rounded-md bg-muted h-8 w-20 shrink-0"
+      data-slot="skeleton"
+    />
+  </div>
+</div>
+`;

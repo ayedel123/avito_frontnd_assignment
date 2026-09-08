@@ -1,0 +1,144 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BookingCard > рендерит тему, комнату, этаж и комментарий 1`] = `
+<div>
+  <div
+    class="flex items-center gap-4 rounded-xl border bg-card p-4"
+  >
+    <div
+      class="flex size-14 shrink-0 flex-col items-center justify-center rounded-lg bg-muted"
+    >
+      <span
+        class="text-[10px] font-medium uppercase text-muted-foreground"
+      >
+        октябрь
+      </span>
+      <span
+        class="text-xl leading-none font-bold"
+      >
+        24
+      </span>
+    </div>
+    <div
+      class="flex min-w-0 flex-1 flex-col gap-1"
+    >
+      <h3
+        class="truncate font-semibold"
+      >
+        Daily Sync
+      </h3>
+      <div
+        class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm text-muted-foreground"
+      >
+        <span
+          class="flex items-center gap-1.5"
+        >
+          <svg
+            aria-hidden="true"
+            class="lucide lucide-building2 lucide-building-2 size-4 shrink-0"
+            fill="none"
+            height="24"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10 12h4"
+            />
+            <path
+              d="M10 8h4"
+            />
+            <path
+              d="M14 21v-3a2 2 0 0 0-4 0v3"
+            />
+            <path
+              d="M6 10H4a2 2 0 0 0-2 2v7a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2"
+            />
+            <path
+              d="M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16"
+            />
+          </svg>
+          <span
+            class="font-medium text-primary"
+          >
+            Эверест
+          </span>
+        </span>
+        <span
+          class="size-1 shrink-0 rounded-full bg-muted-foreground/40"
+        />
+        <span>
+          4
+           этаж
+        </span>
+        <span
+          class="size-1 shrink-0 rounded-full bg-muted-foreground/40"
+        />
+        <span>
+          10:00 – 11:00
+           
+          GMT+3
+        </span>
+      </div>
+      <p
+        class="truncate text-sm text-muted-foreground"
+      >
+        Обсудить релиз
+      </p>
+    </div>
+    <button
+      class="group/button inline-flex items-center justify-center rounded-lg border bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 border-border bg-background hover:bg-muted hover:text-foreground aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 shrink-0"
+      data-slot="button"
+      tabindex="0"
+      type="button"
+    >
+      <svg
+        aria-hidden="true"
+        class="lucide lucide-calendar-plus"
+        data-icon="inline-start"
+        fill="none"
+        height="24"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 18h6"
+        />
+        <path
+          d="M16 2v3"
+        />
+        <path
+          d="M19 15v6"
+        />
+        <path
+          d="M21 11.5V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8.3"
+        />
+        <path
+          d="M3 9h18"
+        />
+        <path
+          d="M8 2v3"
+        />
+      </svg>
+      В календарь
+    </button>
+    <button
+      class="group/button inline-flex items-center justify-center rounded-lg border bg-clip-padding text-sm font-medium whitespace-nowrap transition-all outline-none select-none focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/50 active:not-aria-[haspopup]:translate-y-px disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-3 aria-invalid:ring-destructive/20 dark:aria-invalid:border-destructive/50 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4 bg-background aria-expanded:bg-muted aria-expanded:text-foreground dark:border-input dark:bg-input/30 dark:hover:bg-input/50 h-8 gap-1.5 px-2.5 has-data-[icon=inline-end]:pr-2 has-data-[icon=inline-start]:pl-2 shrink-0 border-destructive/40 text-destructive hover:bg-destructive/10 hover:text-destructive"
+      data-slot="button"
+      tabindex="0"
+      type="button"
+    >
+      Отменить
+    </button>
+  </div>
+</div>
+`;
